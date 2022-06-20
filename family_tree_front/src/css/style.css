@@ -1,0 +1,89 @@
+@import "normalize.css";
+
+.formPage {
+    max-width: var(--container-max-width);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wrapperForm{
+    border: 2px solid rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.wrapperForm h1 {
+    font-weight: 400;
+    color: var(--orange-color);
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.form{
+    text-align: center;
+    max-width: max-content;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.label{
+    display: block;
+    font-size: var(--bigger-space);
+    text-align: left;
+}
+
+.inputContainer {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.input{
+    display: block;
+    height: 30px;
+    padding: 8px;
+
+    border: 2px solid rgba(0, 0, 0, .25);
+    border-radius: 10px;
+
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.input:focus{
+    outline: none;
+    border: 2px solid var(--orange-color);
+}
+
+.errorMessage {
+    white-space: pre;
+    font-size: 15px;
+    margin: 3px 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .5);
+}
+
+.helper {
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, .8);
+    margin-top: 4px;
+}
+
+.buttonOrange {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: var(--orange-color);
+    color: white;
+    cursor: pointer;
+}
+
+.buttonOrange:hover{
+    background-color: var(--orange-darker-color);
+}

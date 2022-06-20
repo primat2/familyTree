@@ -1,0 +1,30 @@
+.logoContainer {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+
+.logo {
+    width: 100%;
+}
+
+.loginLogo {
+    max-width: min-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loginLogo h1{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0;
+}
+
+.loginLogo h2 {
+    text-align: right;
+    color: var(--orange-color);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+    padding-right: 10px;
+}

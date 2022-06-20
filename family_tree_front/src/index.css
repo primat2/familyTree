@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --line-height: 1.25;
+  --container-max-width: 500px;
+  --avatar-size: 2.25rem; 
+
+  --col-width: 188px;
+
+  --main-font-size: 16px;
+  --large-font-size: 1.25rem;
+  --small-font-size: 0.75rem;
+
+  --orange-color: #FF4D13;
+  --orange-darker-color: #f14309;
+
+  --main-space: 1rem;
+  --bigger-space: 1.1rem;
+  --small-space: 0.5rem;
+  --very-small-space: 0.25rem;
+
+  --main-border-radius: 0.5rem;
+  --small-border-radius: 0.25rem;
+}
